@@ -21,7 +21,7 @@ public class App {
         System.out.println(register);
 
         try{
-            Bil kopia = new Bil("Saab", "95", "ABC999", 1990, 0 );
+            Bil kopia = new Bil("Saab", "95", "ABC123", 1990, 0 );
             register.läggTillBil(kopia);
         }
         catch (IllegalArgumentException e) {
